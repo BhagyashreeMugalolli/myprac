@@ -1,0 +1,10 @@
+  git stash
+  285  git stash list
+  286  cat hello.java
+  287  git checkout master
+  288  cat hello.java
+  289  git stash apply stash@{0}
+  290  cat hello.java
+  291  vi hello.java
+  292  git add hello.java
+  293  git commit -m "commiting stashed changes"
